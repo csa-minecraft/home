@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             
             // Redirect to download URL
-            if (DOWNLOAD_URL && DOWNLOAD_URL !== 'https://example.com/download/csa.exe') {
+            if (DOWNLOAD_URL && DOWNLOAD_URL !== 'https://github.com/csa-minecraft/home/raw/refs/heads/main/CSA.exe') {
                 window.open(DOWNLOAD_URL, '_blank');
             } else {
                 // If URL is not set, show alert
@@ -70,4 +70,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 
